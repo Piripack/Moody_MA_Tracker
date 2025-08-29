@@ -17,7 +17,7 @@ Structured dataset of recent M&A deals to demonstrate **data research, validatio
 | PT05    | 2025-07-29        | stake purchase| announced | undisclosed   | —           | iFood              | CRMBonus      | iFood rel. |
 | PT01    | 2025-08-27        | acquisition   | pending   | cash          | 27000000    | VL Mineração       | Mosaic potash (Sergipe) | Estadão |
 | ES01    | 2025-07-16        | acquisition   | announced | undisclosed   | 1700000000  | Prosus             | Despegar.com  | Reuters    |
-| ES02    | 2025-07-16        | general trend | —         | —             | —           | —                  | —             | Expansión  |
+
 
 > Full dataset includes additional EN/PT/ES entries with translations and QC fields.
 
@@ -29,7 +29,7 @@ Structured dataset of recent M&A deals to demonstrate **data research, validatio
 
 ## Notes on sources
 - Primary: **Reuters, company press releases**
-- Regional PT/ES: **Estadão, Fusões & Aquisições, Expansión**
+- Regional PT/ES: **Estadão, Fusões & Aquisições**
 - Non-English items include a brief **English summary** in the dataset
 
 ## How to use
