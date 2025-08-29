@@ -37,5 +37,8 @@ Structured dataset of recent M&A deals to demonstrate **data research, validatio
 - Group by `consideration_type` (cash/stock/mixed)
 - Sort by `deal_value_amount` for top-deal snapshots
 
+- [Full Excel Workbook (XLSX)](https://github.com/Piripack/Moody_MA_Tracker/blob/main/Moody_MA_Tracker_Final_Project.xlsx) — complete dataset with all tabs in one file (download required).
+
+
 ## Author
 Andre Ramos • [LinkedIn](https://www.linkedin.com/in/awmr/)
