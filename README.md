@@ -14,8 +14,8 @@ Structured dataset of recent M&A deals to demonstrate **data research, validatio
 | ENG02   | 2025-08-25        | acquisition   | pending   | stock         | 3100000000  | Crescent Energy    | Vital Energy  | Reuters    |
 | ENG03   | 2025-08-21        | take-private  | pending   | cash          | 12300000000 | Thoma Bravo        | Dayforce      | Reuters    |
 | ENG04   | 2025-08-24        | acquisition   | announced | cash          | 2000000000  | Thoma Bravo        | Verint Systems| Reuters    |
-| PT05    | 2025-07-29        | stake purchase| announced | undisclosed   | —           | iFood              | CRMBonus      | iFood rel. |
 | PT01    | 2025-08-27        | acquisition   | pending   | cash          | 27000000    | VL Mineração       | Mosaic potash (Sergipe) | Estadão |
+| PT05    | 2025-07-29        | stake purchase| announced | undisclosed   | —           | iFood              | CRMBonus      | iFood rel. |
 | ES01    | 2025-07-16        | acquisition   | announced | undisclosed   | 1700000000  | Prosus             | Despegar.com  | Reuters    |
 
 
