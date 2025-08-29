@@ -1,47 +1,41 @@
 # Moody_MA_Tracker
 
-This project is a structured dataset of recent Mergers & Acquisitions (M&A) transactions, created to demonstrate skills in **data research, validation, and multilingual processing** relevant to financial data roles.  
+Structured dataset of recent M&A deals to demonstrate **data research, validation, and multilingual processing** relevant to financial data roles.
 
 ## Overview
-The dataset consolidates M&A deals reported in **English, Portuguese, and Spanish**, with a consistent schema to ensure comparability. It includes key deal attributes, verified sources, and English translations of non-English articles.  
+- Languages covered: **English (EN), Portuguese (PT), Spanish (ES)**
+- Standardised fields: deal type, status, consideration, value, acquirer/target, sources, translation
+- Tabs/files: Main dataset, QC documentation, Insights
 
-## Contents
-- **Main_Dataset**:  
-  Cleaned dataset of deals with attributes such as deal type, status, consideration, value, acquirer, target, source titles, and URLs.  
+## Preview (sample rows)
+| Deal ID | Announcement Date | Deal Type     | Status    | Consideration | Value (USD) | Acquirer           | Target        | Source     |
+|--------:|-------------------|---------------|-----------|---------------|------------:|--------------------|---------------|------------|
+| ENG01   | 2025-08-25        | acquisition   | announced | mixed         | 18000000000 | Keurig Dr Pepper   | JDE Peet's    | Reuters    |
+| ENG02   | 2025-08-25        | acquisition   | pending   | stock         | 3100000000  | Crescent Energy    | Vital Energy  | Reuters    |
+| ENG03   | 2025-08-21        | take-private  | pending   | cash          | 12300000000 | Thoma Bravo        | Dayforce      | Reuters    |
+| ENG04   | 2025-08-24        | acquisition   | announced | cash          | 2000000000  | Thoma Bravo        | Verint Systems| Reuters    |
+| PT05    | 2025-07-29        | stake purchase| announced | undisclosed   | —           | iFood              | CRMBonus      | iFood rel. |
+| PT01    | 2025-08-27        | acquisition   | pending   | cash          | 27000000    | VL Mineração       | Mosaic potash (Sergipe) | Estadão |
+| ES01    | 2025-07-16        | acquisition   | announced | undisclosed   | 1700000000  | Prosus             | Despegar.com  | Reuters    |
+| ES02    | 2025-07-16        | general trend | —         | —             | —           | —                  | —             | Expansión  |
 
-- **QC_Documentation**:  
-  Definitions of each field, data governance notes, and quality control checks to ensure accuracy and consistency.  
+> Full dataset includes additional EN/PT/ES entries with translations and QC fields.
 
-- **Insights**:  
-  Summary statistics, including:  
-  - Total number of deals  
-  - Deals by language and status  
-  - Largest transaction (Keurig Dr Pepper’s $18B acquisition of JDE Peet’s)  
+## Files
+- `Main_Dataset.xlsx` or `Main_Dataset.csv` — full table with all fields
+- `QC_Documentation.csv` — column definitions and QC policy
+- `Insights.csv` — summary stats (counts by language/status, largest deal)
+- `Insights_Summary.pdf` — one-page overview for quick review
 
-- **Insights Summary (PDF)**:  
-  A one-page dashboard highlighting key findings in a visual and easy-to-share format.  
+## Notes on sources
+- Primary: **Reuters, company press releases**
+- Regional PT/ES: **Estadão, Fusões & Aquisições, Expansión**
+- Non-English items include a brief **English summary** in the dataset
 
-## Key Features
-- **Multilingual Research**: Sources include Reuters, Estadão, Fusões & Aquisições, and Expansión (English, Portuguese, Spanish).  
-- **Translation Handling**: Non-English articles summarised in English for consistency.  
-- **Data Accuracy**: Each entry cross-checked against source articles with QC notes.  
-- **Actionable Insights**: Beyond raw data, the project demonstrates the ability to extract and present meaningful patterns.  
-
-## Technologies
-- **Excel / Pandas** for structuring and cleaning data.  
-- **ReportLab (Python)** for generating the PDF summary.  
-
-## Use Case
-This project replicates tasks performed in **data specialist and financial information roles**, showcasing:  
-- Data collection and validation  
-- Quality control and documentation  
-- Translation and consistency across multiple languages  
-- Basic analysis and insight extraction  
+## How to use
+- Filter by `status` (announced/pending/completed)
+- Group by `consideration_type` (cash/stock/mixed)
+- Sort by `deal_value_amount` for top-deal snapshots
 
 ## Author
-**Andre Ramos**  
-- [LinkedIn](https://www.linkedin.com/in/awmr/)  
-- BSc (Hons) Computer Science, Solent University  
-- Fluent in English & Portuguese  
-
----
+Andre Ramos • [LinkedIn](https://www.linkedin.com/in/awmr/)
