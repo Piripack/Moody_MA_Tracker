@@ -22,10 +22,11 @@ Structured dataset of recent M&A deals to demonstrate **data research, validatio
 > Full dataset includes additional EN/PT/ES entries with translations and QC fields.
 
 ## Files
-- `Main_Dataset.xlsx` or `Main_Dataset.csv` — full table with all fields
-- `QC_Documentation.csv` — column definitions and QC policy
-- `Insights.csv` — summary stats (counts by language/status, largest deal)
-- `Insights_Summary.pdf` — one-page overview for quick review
+- [Main Dataset (CSV)](./Moody_MA_Tracker_Final_Project.csv) — complete dataset, viewable in GitHub  
+- [QC Documentation (CSV)](./QC_Documentation.csv) — column definitions and QC rules  
+- [Insights (CSV)](./Insights.csv) — summary statistics (language distribution, top deal)  
+- [Insights Summary (PDF)](./Moody_MA_Project_Insights_Summary.pdf) — one-page visual overview  
+
 
 ## Notes on sources
 - Primary: **Reuters, company press releases**
