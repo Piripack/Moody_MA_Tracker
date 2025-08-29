@@ -1,0 +1,2 @@
+﻿Total Deals,Deals by Language,Deals by Status,Largest Deal Value,Largest Deal Details
+15,"{'English': 7, 'Portuguese': 6, 'Spanish': 2}","{'pending': 7, 'announced': 6, 'completed': 1}",18000000000,"{'acquirer_name': 'Keurig Dr Pepper', 'target_name': ""JDE Peet's"", 'deal_value_amount': 18000000000.0, 'deal_value_currency': 'USD'}"

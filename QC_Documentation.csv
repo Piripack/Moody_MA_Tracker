@@ -1,0 +1,26 @@
+﻿Column,Definition
+deal_id,"Unique identifier for each deal (ENG = English, PT = Portuguese, ES = Spanish)"
+announcement_date,Date when the deal was announced
+completion_date,Date when the deal was completed (if available)
+deal_type,"Type of deal (e.g., acquisition, merger, stake purchase, take-private)"
+status,"Current status of the deal (e.g., announced, pending, completed)"
+consideration_type,"Form of consideration (cash, stock, mixed, or undisclosed)"
+deal_value_amount,Deal value amount (numeric)
+deal_value_currency,"Currency in which the deal value is denominated (e.g., USD, BRL)"
+acquirer_name,Name of the acquiring company
+acquirer_country,Country of the acquiring company
+target_name,Name of the target company
+target_country,Country of the target company
+source_1_title,Title of the first source article
+source_1_url,URL of the first source article
+source_1_date,Date of the first source article
+source_language,Language of the first source article
+source_2_title,Title of the second source article (if any)
+source_2_url,URL of the second source article (if any)
+notes_translation,Notes or translations (English summaries of PT/ES articles where applicable)
+qc_checked_by,Name/ID of the person who QC checked the entry
+qc_check_date,Date of QC check
+origin,Origin tag if user-provided
+source_title,Original source title (if available)
+source_url,Original source URL (if available)
+source_date,Original source date (if available)
